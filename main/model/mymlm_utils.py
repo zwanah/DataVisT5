@@ -5,11 +5,6 @@ import torch
 from transformers import BatchEncoding,AutoTokenizer
 from dataclasses import dataclass
 import random
-"""
-This code copied from BioT5 repo:https://github.com/QizhiPei/BioT5/blob/main/biot5/utils/custom_utils.py
-
-I did a little modification.
-"""
 
 @dataclass
 class MyDataCollatorForT5MLM:
